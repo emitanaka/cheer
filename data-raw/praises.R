@@ -1,4 +1,5 @@
-praise <- c(
+## code to prepare `praises` dataset goes here
+praises <- data.frame(words = c(
   "excpetional",
   "remarkable",
   "extraordinary",
@@ -9,4 +10,6 @@ praise <- c(
   "brilliant",
   "astonishing",
   "splendid"
-)
+))
+
+usethis::use_data(praises, overwrite = TRUE)

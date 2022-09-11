@@ -18,7 +18,7 @@
 #'
 #' @export
 praise_me <- function(by = NULL) {
-  affirmation <- sample(praise, 1)
+  affirmation <- sample(praises$words, 1)
   praise_text <- paste0("You are ", affirmation, "!")
   praise_now(praise_text, by = by)
 }
@@ -26,7 +26,7 @@ praise_me <- function(by = NULL) {
 #' @rdname praise_me
 #' @export
 praise_someone <- function(who = NULL, by = NULL) {
-  affirmation <- sample(praise, 1)
+  affirmation <- sample(praises$words, 1)
   praise_text <- ifelse(is.null(who),
     paste0(tools::toTitleCase(affirmation), "!"),
     paste0(who, " is ", sample(affirmation, 1), "!")
