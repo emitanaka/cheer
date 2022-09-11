@@ -47,10 +47,10 @@ praise_now <- function(praise, by = NULL) {
       type = "string"
     )
   }
-  structure(out, class = c("cheer", "character"))
+  structure(out, class = c("praise", "character"))
 }
 
 #' @export
-print.cheer <- function(x, ...) {
+print.praise <- function(x, ...) {
   cat(x)
 }

@@ -38,6 +38,6 @@ characters <- c(
 #' @export
 list_character <- function() {
   structure(paste(characters, collapse = ", "),
-    class = c("cheer", "character")
+    class = c("praise", "character")
   )
 }
