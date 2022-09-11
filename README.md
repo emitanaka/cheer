@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cheer
+# praise.m
 
 <!-- badges: start -->
 
@@ -39,11 +39,11 @@ Give yourself or others a simple praise:
 ``` r
 library(praise.me)
 praise_me()
-#> You are splendid!
+#> You are delightful!
 praise_me(by = "chicken")
 #> 
 #>  ----- 
-#> You are wonderful! 
+#> You are astonishing! 
 #>  ------ 
 #>     \   
 #>      \
@@ -62,7 +62,7 @@ praise_me(by = "chicken")
 praise_someone(who = "Natalia", by = "cow")
 #> 
 #>  ----- 
-#> Natalia is fantastic! 
+#> Natalia is excpetional! 
 #>  ------ 
 #>     \   ^__^ 
 #>      \  (oo)\ ________ 
