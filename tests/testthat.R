@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(cheer)
+library(praise.me)
 
-test_check("cheer")
+test_check("praise.me")
