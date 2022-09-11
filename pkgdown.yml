@@ -1,8 +1,9 @@
 pandoc: 2.14.2
 pkgdown: 2.0.6
 pkgdown_sha: ~
-articles: {}
-last_built: 2022-09-10T23:17Z
+articles:
+  affirmation: affirmation.html
+last_built: 2022-09-11T00:27Z
 urls:
   reference: http://emitanaka.org/cheer/reference
   article: http://emitanaka.org/cheer/articles

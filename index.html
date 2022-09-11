@@ -38,6 +38,12 @@
 <li class="nav-item">
   <a class="nav-link" href="reference/index.html">Reference</a>
 </li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
+    <a class="dropdown-item" href="articles/affirmation.html">Start your RStudio Session with a Positive Affirmation</a>
+  </div>
+</li>
       </ul>
 <form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
@@ -67,7 +73,8 @@
 <li>the use of special <code>print</code> method,</li>
 <li>the use of tags <code>@descripton</code>, <code>@param</code>, <code>@return</code>, <code>@rdname</code> from <code>roxygen2</code>,</li>
 <li>the concept of turning repeated steps into an internal function (<code>praise_now()</code>),</li>
-<li>simple tests via <code>testthat</code>, and</li>
+<li>simple tests via <code>testthat</code>,</li>
+<li>a vignette, and</li>
 <li>a <code>pkgdown</code> website.</li>
 </ul>
 <div class="section level2">
@@ -84,11 +91,11 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/emitanaka/cheer" class="external-link">cheer</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="reference/praise_me.html">praise_me</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt; You are astonishing!</span></span>
+<span><span class="co">#&gt; You are splendid!</span></span>
 <span><span class="fu"><a href="reference/praise_me.html">praise_me</a></span><span class="op">(</span>by <span class="op">=</span> <span class="st">"chicken"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt;  ----- </span></span>
-<span><span class="co">#&gt; You are fantastic! </span></span>
+<span><span class="co">#&gt; You are brilliant! </span></span>
 <span><span class="co">#&gt;  ------ </span></span>
 <span><span class="co">#&gt;     \   </span></span>
 <span><span class="co">#&gt;      \</span></span>
@@ -107,7 +114,7 @@
 <span><span class="fu"><a href="reference/praise_me.html">praise_someone</a></span><span class="op">(</span>who <span class="op">=</span> <span class="st">"Natalia"</span>, by <span class="op">=</span> <span class="st">"cow"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt;  ----- </span></span>
-<span><span class="co">#&gt; Natalia is astonishing! </span></span>
+<span><span class="co">#&gt; Natalia is delightful! </span></span>
 <span><span class="co">#&gt;  ------ </span></span>
 <span><span class="co">#&gt;     \   ^__^ </span></span>
 <span><span class="co">#&gt;      \  (oo)\ ________ </span></span>
