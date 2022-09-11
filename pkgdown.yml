@@ -3,8 +3,8 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   affirmation: affirmation.html
-last_built: 2022-09-11T03:50Z
+last_built: 2022-09-11T03:53Z
 urls:
-  reference: http://emitanaka.org/cheer/reference
-  article: http://emitanaka.org/cheer/articles
+  reference: http://emitanaka.org/praise.me/reference
+  article: http://emitanaka.org/praise.me/articles
 
