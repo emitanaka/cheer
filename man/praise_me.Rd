@@ -22,3 +22,9 @@ just a character with special print method.
 \description{
 Praises you or someone with a random word.
 }
+\examples{
+praise_me()
+praise_me(by = "cow")
+praise_someone()
+praise_someone("Joanna", by = "cat")
+}
