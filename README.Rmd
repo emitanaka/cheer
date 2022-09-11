@@ -24,7 +24,8 @@ The `praise.me` package is created for teaching demo purposes. It extends the id
 - the use of `cowsay` package to demonstrate the use of imported package,
 - the use of special `print` method,
 - the use of tags `@descripton`, `@param`, `@return`, `@rdname` from `roxygen2`,
-- the concept of turning repeated steps into an internal function (`praise_now()`),
+- the concept of turning repeated steps into an internal function (e.g. `praise_now()`),
+- distribution and documentation of data,
 - simple tests via `testthat`, 
 - a vignette, and
 - a `pkgdown` website.

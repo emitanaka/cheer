@@ -18,7 +18,8 @@ extends the idea of the `praise` package but includes:
 -   the use of tags `@descripton`, `@param`, `@return`, `@rdname` from
     `roxygen2`,
 -   the concept of turning repeated steps into an internal function
-    (`praise_now()`),
+    (e.g. `praise_now()`),
+-   distribution and documentation of data,
 -   simple tests via `testthat`,
 -   a vignette, and
 -   a `pkgdown` website.
@@ -38,11 +39,11 @@ Give yourself or others a simple praise:
 ``` r
 library(praise.me)
 praise_me()
-#> You are fantastic!
+#> You are splendid!
 praise_me(by = "chicken")
 #> 
 #>  ----- 
-#> You are brilliant! 
+#> You are wonderful! 
 #>  ------ 
 #>     \   
 #>      \
@@ -61,7 +62,7 @@ praise_me(by = "chicken")
 praise_someone(who = "Natalia", by = "cow")
 #> 
 #>  ----- 
-#> Natalia is phenomenal! 
+#> Natalia is fantastic! 
 #>  ------ 
 #>     \   ^__^ 
 #>      \  (oo)\ ________ 
