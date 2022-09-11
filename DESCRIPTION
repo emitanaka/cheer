@@ -1,5 +1,5 @@
-Package: cheer
-Title: Cheer on!
+Package: praise.me
+Title: You are awesome!
 Version: 0.0.0.9000
 Authors@R: 
     person("Emi", "Tanaka", , "dr.emi.tanaka@gmail.com", role = c("aut", "cre", "cph"),

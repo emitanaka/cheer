@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The `cheer` package is created for teaching demo purposes. It extends the idea of the `praise` package but includes: 
+The `praise.me` package is created for teaching demo purposes. It extends the idea of the `praise` package but includes: 
 
 - the use of `cowsay` package to demonstrate the use of imported package,
 - the use of special `print` method,
@@ -34,15 +34,15 @@ The `cheer` package is created for teaching demo purposes. It extends the idea o
 You can install the development version of cheer like so:
 
 ``` r
-remotes::install_github("emitanaka/cheer")
+remotes::install_github("emitanaka/praise.me")
 ```
 
 ## Example
 
-Give yourself or others a simple cheer:
+Give yourself or others a simple praise:
 
 ```{r example, message = FALSE}
-library(cheer)
+library(praise.me)
 praise_me()
 praise_me(by = "chicken")
 praise_someone(who = "Natalia", by = "cow")

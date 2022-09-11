@@ -45,7 +45,7 @@ Then in your `.Rprofile` file, add the following code.
 ```{r, eval = FALSE}
 setHook("rstudio.sessionInit", function(newSession) {
   # any code included here will be run at the start of each RStudio session
-  cat(cli::col_green(cheer::praise_me()))
+  cat(cli::col_green(praise.me::praise_me()))
 }, action = "append")
 ```
 

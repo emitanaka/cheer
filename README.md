@@ -9,8 +9,8 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The `cheer` package is created for teaching demo purposes. It extends
-the idea of the `praise` package but includes:
+The `praise.me` package is created for teaching demo purposes. It
+extends the idea of the `praise` package but includes:
 
 -   the use of `cowsay` package to demonstrate the use of imported
     package,
@@ -28,17 +28,17 @@ the idea of the `praise` package but includes:
 You can install the development version of cheer like so:
 
 ``` r
-remotes::install_github("emitanaka/cheer")
+remotes::install_github("emitanaka/praise.me")
 ```
 
 ## Example
 
-Give yourself or others a simple cheer:
+Give yourself or others a simple praise:
 
 ``` r
-library(cheer)
+library(praise.me)
 praise_me()
-#> You are splendid!
+#> You are fantastic!
 praise_me(by = "chicken")
 #> 
 #>  ----- 
@@ -61,7 +61,7 @@ praise_me(by = "chicken")
 praise_someone(who = "Natalia", by = "cow")
 #> 
 #>  ----- 
-#> Natalia is delightful! 
+#> Natalia is phenomenal! 
 #>  ------ 
 #>     \   ^__^ 
 #>      \  (oo)\ ________ 
