@@ -2,16 +2,20 @@
 #'
 #' @description
 #' Praises you or someone with a random word.
+#'
 #' @param who A character of who to praise.
 #' @param by A character to say the praise. See the full
 #'   list of character by `list_character()`.
+#'
 #' @return An object of class `cheer`, which is
 #'   just a character with special print method.
+#'
 #' @examples
 #' praise_me()
 #' praise_me(by = "cow")
 #' praise_someone()
 #' praise_someone("Joanna", by = "cat")
+#'
 #' @export
 praise_me <- function(by = NULL) {
   affirmation <- sample(praise, 1)
