@@ -11,9 +11,9 @@ The package generates messages for affirmation.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/emitanaka/cheer}
-  \item \url{http://emitanaka.org/cheer/}
-  \item Report bugs at \url{https://github.com/emitanaka/cheer/issues}
+  \item \url{https://github.com/emitanaka/praise.me}
+  \item \url{http://emitanaka.org/praise.me/}
+  \item Report bugs at \url{https://github.com/emitanaka/praise.me/issues}
 }
 
 }
