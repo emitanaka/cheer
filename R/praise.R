@@ -52,5 +52,5 @@ praise_now <- function(praise, by = NULL) {
 
 #' @export
 print.praise <- function(x, ...) {
-  cat(x)
+  cat(x, ...)
 }
