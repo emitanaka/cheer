@@ -25,7 +25,8 @@ The `cheer` package is created for teaching demo purposes. It extends the idea o
 - the use of special `print` method,
 - the use of tags `@descripton`, `@param`, `@return`, `@rdname` from `roxygen2`,
 - the concept of turning repeated steps into an internal function (`praise_now()`),
-- simple tests via `testthat`, and 
+- simple tests via `testthat`, 
+- a vignette, and
 - a `pkgdown` website.
 
 ## Installation

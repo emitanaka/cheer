@@ -19,7 +19,8 @@ the idea of the `praise` package but includes:
     `roxygen2`,
 -   the concept of turning repeated steps into an internal function
     (`praise_now()`),
--   simple tests via `testthat`, and
+-   simple tests via `testthat`,
+-   a vignette, and
 -   a `pkgdown` website.
 
 ## Installation
@@ -37,11 +38,11 @@ Give yourself or others a simple cheer:
 ``` r
 library(cheer)
 praise_me()
-#> You are astonishing!
+#> You are splendid!
 praise_me(by = "chicken")
 #> 
 #>  ----- 
-#> You are fantastic! 
+#> You are brilliant! 
 #>  ------ 
 #>     \   
 #>      \
@@ -60,7 +61,7 @@ praise_me(by = "chicken")
 praise_someone(who = "Natalia", by = "cow")
 #> 
 #>  ----- 
-#> Natalia is astonishing! 
+#> Natalia is delightful! 
 #>  ------ 
 #>     \   ^__^ 
 #>      \  (oo)\ ________ 

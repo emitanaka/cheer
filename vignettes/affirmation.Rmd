@@ -1,0 +1,54 @@
+---
+title: "Start your RStudio Session with a Positive Affirmation"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Positive affirmation}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Why positive affirmation
+
+Positive affirmation are positive phrases that are typically repeated to affirm something to be true. Scientific research has some empirical evidence that positive affirmation can:
+
+1. Decreate health-deteriorating stress [(Salleh 2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3341916/)
+2. Control self-sabotaging thoughts and speech
+3. Reduce anxiety
+4. Improve mood [(Cohen & Sherman 2014)](https://depts.washington.edu/anesth/edi/_resources-docs/Cohen_annurev-psych-010213-115137.pdf)
+5. Promote positive coping
+6. Enhance self-esteem [(Cascio et al. 2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4814782/)
+7. Improve problem-solving under stress
+8. Can help you find love
+9. May change outcomes
+
+
+This vignette is based on this [blog post by Sarah Kristenson](https://www.happierhuman.com/benefits-affirmations/).
+
+
+## Get a positive affirmation for every RStudio session start
+
+The `cheer` package includes functions to give you or someone else a praise. You can append your session start up message to include a positive affirmation every time by modifying your R profile. To do this, first use the following command to locate and open your R profile.
+
+```{r, eval = FALSE}
+usethis::edit_r_profile()
+```
+
+Then in your `.Rprofile` file, add the following code.
+
+```{r, eval = FALSE}
+setHook("rstudio.sessionInit", function(newSession) {
+  # any code included here will be run at the start of each RStudio session
+  cat(cli::col_green(cheer::praise_me()))
+}, action = "append")
+```
+
+Now try restarting your RStudio session. You should now see a positive affirmation colored green! Feel free to change to what you like. 
+
+If you want more ideas of what to include in your RStudio session start up then check out this blog post [here](https://damien-datasci-blog.netlify.app/post/2020-12-31-pimp-your-r-startup-message/).
