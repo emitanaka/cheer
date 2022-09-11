@@ -46,5 +46,6 @@ Give yourself or others a simple praise:
 library(praise.me)
 praise_me()
 praise_me(by = "chicken")
+praise_someone()
 praise_someone(who = "Natalia", by = "cow")
 ```

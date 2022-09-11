@@ -39,11 +39,11 @@ Give yourself or others a simple praise:
 ``` r
 library(praise.me)
 praise_me()
-#> You are delightful!
+#> You are extraordinary!
 praise_me(by = "chicken")
 #> 
 #>  ----- 
-#> You are splendid! 
+#> You are astonishing! 
 #>  ------ 
 #>     \   
 #>      \
@@ -59,10 +59,12 @@ praise_me(by = "chicken")
 #>             _| _|
 #>             /` /` [nosig]
 #> 
+praise_someone()
+#> Extraordinary!
 praise_someone(who = "Natalia", by = "cow")
 #> 
 #>  ----- 
-#> Natalia is delightful! 
+#> Natalia is phenomenal! 
 #>  ------ 
 #>     \   ^__^ 
 #>      \  (oo)\ ________ 
