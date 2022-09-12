@@ -29,7 +29,7 @@ praise_someone <- function(who = NULL, by = NULL) {
   affirmation <- sample(praises$words, 1)
   praise_text <- ifelse(is.null(who),
     paste0(tools::toTitleCase(affirmation), "!"),
-    paste0(who, " is ", sample(affirmation, 1), "!")
+    paste0(who, " is ", affirmation, "!")
   )
   praise_now(praise_text, by = by)
 }
