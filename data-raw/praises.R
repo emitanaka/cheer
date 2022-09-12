@@ -1,6 +1,6 @@
 ## code to prepare `praises` dataset goes here
 praises <- data.frame(words = c(
-  "excpetional",
+  "exceptional",
   "remarkable",
   "extraordinary",
   "delightful",
